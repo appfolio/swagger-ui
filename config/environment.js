@@ -7,7 +7,7 @@ module.exports = function(environment) {
   };
 
   if (environment !== 'development') {
-    ENV.basePath = '/people_api';
+    ENV.basePath = '/api';
     ENV.rootURL = `${ENV.basePath}/docs/`;
   } else {
     ENV.rootURL = '/';
